@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/api/profile")
+fetch("https://resume-backend-2xdx.onrender.com/api/profile")
     .then(response => response.json())
     .then(data => {
 
