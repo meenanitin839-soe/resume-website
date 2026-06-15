@@ -1,0 +1,13 @@
+# Java build output
+target/
+*.class
+*.log
+
+# VS Code settings
+.vscode/
+
+# Windows files
+Thumbs.db
+
+# Mac files
+.DS_Store
