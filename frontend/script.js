@@ -1,3 +1,4 @@
+// Updated API URL
 fetch("https://resume-backend-43zb.onrender.com/api/profile")
     .then(response => response.json())
     .then(data => {
