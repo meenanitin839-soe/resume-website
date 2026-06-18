@@ -139,3 +139,110 @@ button:hover {
         padding: 10px;
     }
 }
+
+.hero {
+    animation: fadeIn 1.2s ease;
+}
+
+.card {
+    animation: slideUp 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero {
+    animation: fadeIn 1.2s ease;
+}
+
+.card {
+    animation: slideUp 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skill {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat h1 {
+    color: #2563eb;
+}
+
+.card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+body {
+    background: linear-gradient(135deg,
+            #0f172a,
+            #1e293b,
+            #2563eb);
+}
